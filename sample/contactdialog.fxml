@@ -2,12 +2,12 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<DialogPane fx:controller="sample.ContactController" xmlns:fx="http://javafx.com/fxml">
+<DialogPane fx:controller="sample.ContactController" xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: grey;">
     <headerText>
         Fill in the information for the contact
     </headerText>
     <content>
-        <GridPane vgap="10" hgap="10">
+        <GridPane vgap="10" hgap="10" style="-fx-background-color: grey;">
             <Label text="First Name: " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
             <TextField fx:id="firstNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
 
