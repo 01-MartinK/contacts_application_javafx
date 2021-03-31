@@ -21,6 +21,9 @@
                     <items>
                         <MenuItem text="edit" onAction="#showEditContactDialog"/>
                     </items>
+                    <items>
+                        <MenuItem text="delete" onAction="#showDeleteContactDialog"/>
+                    </items>
                 </Menu>
             </menus>
         </MenuBar>
